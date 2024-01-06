@@ -1,16 +1,21 @@
-//ANALISIS
-//Entrada de datos:Tres edades ingresadas por el usuario
-//Proceso:Comparar las tres edades para determinar cuál es la mayor y la menor.
-//Validar si tanto la mayor como la menor son mayores de 18 años.
-//Salida:Imprimir el resultado indicando la mayor y menor edad, y si ambas son mayores de 18 años.
-//Diseño:Utilizaremos un algoritmo sencillo de selección para encontrar la mayor y la menor edad.
-//Luego, verificaremos si ambas edades son mayores de 18 años.
+// ANALISIS:
+// Definicion del problema: determinar el mayor y menor de 3 edades dadas por el usuario.
+// Datos de Entrada: edad1, edad2 y edad3 como enteros
+// Informacion de Salida: "mayor:" edad_1 y "menor:" edad1 como enteros
+// Variables:edad1, edad2, edad3, edad_mayor, edad_menor como enteros
+// DISEÃ‘O:REPARTIR EL PRBLEMA EN FORMA SIMPLE
+// Dividir el problema en etapas simples.
+// Entrada de datos: pedir al usuario ingresar 3 edades.
+// Datos a solicitar: edad1, edad2 y edad3 como entero
+// Comparacion: comparar los numeros para hallar el mayor y menor.
+// Salida de datos: Escribir "el mayor es:" edad_mayor y "el menor es:" edad_menor
+// refinamiento de las etapas con formulas.
 
 
 Algoritmo sin_titulo
 	
 		
-		// Declaración de variables
+		// DeclaraciÃ³n de variables
 		Definir edad1, edad2, edad3, mayor, menor Como Entero
 		
 		// Entrada de datos
@@ -43,11 +48,11 @@ Algoritmo sin_titulo
 			Fin Si
 		Fin Si
 		
-		// Validar si ambas edades son mayores de 18 años
+		// Validar si ambas edades son mayores de 18 aÃ±os
 		Si (mayor >= 18 y menor >= 18) Entonces
-			Escribir "La mayor edad es ", mayor, " y la menor edad es ", menor, ". Ambas son mayores de 18 años."
+			Escribir "La mayor edad es ", mayor, " y la menor edad es ", menor, ". Ambas son mayores de 18 aÃ±os."
 		Sino
-			Escribir "La mayor edad es ", mayor, " y la menor edad es ", menor, ". No cumplen ambos con ser mayores de 18 años."
+			Escribir "La mayor edad es ", mayor, " y la menor edad es ", menor, ". No cumplen ambos con ser mayores de 18 aÃ±os."
 		Fin Si
 		
 FinAlgoritmo
