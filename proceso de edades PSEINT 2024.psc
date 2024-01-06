@@ -3,7 +3,7 @@
 // Datos de Entrada: edad1, edad2 y edad3 como enteros
 // Informacion de Salida: "mayor:" edad_1 y "menor:" edad1 como enteros
 // Variables:edad1, edad2, edad3, edad_mayor, edad_menor como enteros
-// DISEÑO:REPARTIR EL PRBLEMA EN FORMA SIMPLE
+// DISEÑO:repartir el problema en etapas simples.
 // Dividir el problema en etapas simples.
 // Entrada de datos: pedir al usuario ingresar 3 edades.
 // Datos a solicitar: edad1, edad2 y edad3 como entero
